@@ -44,23 +44,23 @@ const Navbar = ({toggle}) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks to='about' smooth="true" duration={500} spy={true} exact="true" offset={-80}>About</NavLinks>
+                <NavLinks to='about' smooth="true" duration={500} spy={true} exact="true" offset={0}>About</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='discover' smooth="true" duration={500} spy={true} exact="true"
-                          offset={-80}>Discover</NavLinks>
+                          offset={0}>Discover</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='services' smooth="true" duration={500} spy={true} exact="true"
-                          offset={-80}>Services</NavLinks>
+                          offset={0}>Services</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='signup' smooth="true" duration={500} spy={true} exact="true" offset={-80}>Sign
+                <NavLinks to='signup' smooth="true" duration={500} spy={true} exact="true" offset={0}>Sign
                   Up</NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin" smooth="true" duration={500} spy="true" exact="true" offset={-80}>Sign
+              <NavBtnLink to="/signin" smooth="true" duration={500} spy="true" exact="true" offset={0}>Sign
                 In</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
